@@ -5,8 +5,10 @@ public class AppearsOnlyonce {
     static void search(int arr[], int n)
     {
         int ans = -1;
-        for (int i = 0; i < n; i += 2) {
-            if (arr[i] != arr[i + 1]) {
+        for (int i = 0; i < n; i += 2) 
+        {
+            if (arr[i] != arr[i + 1]) 
+            {
                 ans = arr[i];
                 break;
             }
@@ -14,8 +16,6 @@ public class AppearsOnlyonce {
        
         if (arr[n - 2] != arr[n - 1])
             ans = arr[n-1];
-      
-        // ans = -1 if no such element is present.
         System.out.println("The required element is "
                            + ans);
     }

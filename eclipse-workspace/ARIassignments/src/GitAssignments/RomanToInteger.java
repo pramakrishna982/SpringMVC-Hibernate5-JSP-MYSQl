@@ -21,7 +21,6 @@ public class RomanToInteger {
 	        return -1;
 	    }
 	 
-	   
 	    int RomanToInteger(String str)
 	    {
 	       int res = 0;
@@ -58,7 +57,6 @@ public class RomanToInteger {
 	    {
 	    	RomanToInteger ri = new RomanToInteger();
 	 
-	        
 	        String str = "III";
 	        String str1 = "V";
 	        System.out.println("Integer form of Roman Numeral"
