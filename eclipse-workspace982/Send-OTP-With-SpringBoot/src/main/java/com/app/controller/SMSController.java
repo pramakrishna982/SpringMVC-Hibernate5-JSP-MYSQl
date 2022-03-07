@@ -30,7 +30,8 @@ public class SMSController {
 	private final String TOPIC_DESTINATION = "/lesson/sms";// You can send SMS in verified Number
 
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String showLoginPage(ModelMap model) {
+	public String showLoginPage(ModelMap model)
+	{
 		System.out.println("inside controller class form method line 31");
 
 		return "login";
